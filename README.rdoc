@@ -1,3 +1,5 @@
+{<img src="https://coveralls.io/repos/simonoff/mongoid_migrations/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/simonoff/mongoid_migrations]
+
 == RELEASE NOTES
 * For rails >= 3.2.0 and mongoid >= 3.0.0, use version 1.0.0
 * For rails >= 3.0.0 (but < 3.2.0) and mongoid >= 2.0.0, use version 0.0.14
