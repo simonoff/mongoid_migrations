@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.license     = 'MIT'
   s.description = 'Migrations for the Mongoid'
 
-  s.required_ruby_version     = '>= 1.9.2'
+  s.required_ruby_version     = '>= 1.9.3'
 
   s.author            = 'Alexander Simonov'
   s.email             = 'alex@simonov.me'
