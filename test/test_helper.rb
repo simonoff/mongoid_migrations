@@ -1,0 +1,6 @@
+require 'simplecov'
+require 'minitest/autorun'
+require 'minitest/unit'
+require 'mongoid'
+require 'mongoid_migrations'
+require 'config'

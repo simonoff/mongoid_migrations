@@ -1,13 +1,11 @@
-$:.unshift(File.dirname(__FILE__))
-namespace :test do
-  require 'bundler/setup'
-  Bundler.require(:development_mongoid_rails_migrations)
+require 'bundler/gem_tasks'
+require 'rake/testtask'
 
-  namespace :mongoid do
-    desc "Test mongoid rails migrations"
-    task :migrations do
-      require File.dirname(__FILE__) + "/test/config"
-      require 'test/migration_test'
-    end
-  end
+task :default => :test
+
+Rake::TestTask.new(:test) do |test|
+  test.libs << 'lib'
+  test.libs << 'test'
+  test.pattern = 'test/**/*_test.rb'
+  test.verbose = true
 end
