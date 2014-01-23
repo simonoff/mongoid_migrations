@@ -1,3 +1,4 @@
+{<img src="https://travis-ci.org/simonoff/mongoid_migrations.png?branch=master" alt="Build Status" />}[https://travis-ci.org/simonoff/mongoid_migrations]
 {<img src="https://coveralls.io/repos/simonoff/mongoid_migrations/badge.png" alt="Coverage Status" />}[https://coveralls.io/r/simonoff/mongoid_migrations]
 
 == RELEASE NOTES
